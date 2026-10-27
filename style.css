@@ -29,7 +29,13 @@ header h1 {
 }
 
 nav ul {
-    list-style: none;
     display: flex;
     gap: 20px;
+}
+
+nav ul li a {
+    color: #58bcce;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
 }
