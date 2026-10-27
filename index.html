@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtumishi School - Home</title>
+    <!-- Link to your separate CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <h1>MTUMISHI SCHOOL</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages.html">Pages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="students.html">Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <p>Mtumishi School is a private school in Mt. Fuji, Japan.It was established in 1889 and is the oldest school in Japan.It focuses on academics, arts and technology, and has a strong emphasis on character education.</p>
+            <p>The school is divided into four houses: Elgon, Kilimanjaro, Ngong, and Langata. Each house has its own unique culture and traditions.</p>
+            <p>The school motto is "Education is the most powerful weapon which you can use to change the world." </p>
+            <p>Mtumishi School has a long and storied history, and it is known for its academic excellence and its commitment to its students. The school has produced many successful alumni, including Nobel laureates, politicians, and business leaders.</p>
+            <p>Mtumishi School is committed to providing a safe and stimulating learning environment for all students. The school has a strict policy against bullying and harassment, and it provides a supportive and inclusive community for its students.</p>
+            <p>Mtumishi School is dedicated to providing a high-quality education to its students, and it is committed to continuously improving its teaching and learning methods.</p>
+        </section>
+
+        <!-- Note Section -->
+        <section class="note-section">
+            <p><strong>NOTE:</strong> This website also serves as a student register for students in school.</p>
+        </section>
+
+        <!-- Students Section with Form Input -->
+        <section id="students" class="student-register-section">
+            <h2>Student Register</h2>
+            <form id="studentForm">
+                <div class="form-group">
+                    <label for="studentName">Student Name:</label>
+                    <input type="text" id="studentName" name="studentName" placeholder="Enter full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="studentClass">Class:</label>
+                    <input type="text" id="studentClass" name="studentClass" placeholder="e.g., Form 1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="classStream">Class Stream:</label>
+                    <select id="classStream" name="classStream" required>
+                        <option value="">--Select Stream--</option>
+                        <option value="North">North</option>
+                        <option value="South">South</option>
+                        <option value="East">East</option>
+                        <option value="West">West</option>
+                    </option>
+                    </select>
+                </div>
+
+                <button type="submit">Register Student</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mtumishi School. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
