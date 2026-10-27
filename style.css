@@ -113,3 +113,11 @@ button[type="submit"] {
     transition: background 0.3s ease;
     width: 100%;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e3d59;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
