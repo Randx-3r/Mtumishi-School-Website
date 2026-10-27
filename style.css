@@ -43,3 +43,10 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff6e40;
 }
+
+/* Main Layout Container */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
