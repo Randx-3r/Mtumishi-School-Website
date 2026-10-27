@@ -68,3 +68,11 @@ main {
     margin-bottom: 10px;
     font-size: 1.02rem;
 }
+/* Sections Styling (Cards) */
+section {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
