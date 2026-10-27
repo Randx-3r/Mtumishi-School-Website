@@ -1,4 +1,4 @@
-/* Global Reset & Typography */
+/* Main website looks & Font and uhh General looks */
 * {
     margin: 0;
     padding: 0;
@@ -14,11 +14,16 @@ body {
 
 /* Header & Navigation Bar Styling */
 header {
-    background: #1e3d59;
-    color: #fff;
+    background: #2c458a;
+    color: #35e6c8;
     padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(240, 4, 4, 0.1);
+}
+
+header h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
 }
