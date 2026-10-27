@@ -70,9 +70,16 @@ main {
 }
 /* Sections Styling (Cards) */
 section {
-    background: #ffffff;
+    background: #99bbbe;
     padding: 30px;
     margin-bottom: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
+/* Note Section Styling */
+.note-section {
+    background-color: #afdb9b;
+    border-left: 5px solid #ffc107;
+}
+
