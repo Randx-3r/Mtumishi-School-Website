@@ -50,3 +50,21 @@ main {
     margin: 30px auto;
     padding: 0 20px;
 }
+
+/* Styling for Events and Clubs Sections */
+.events-section h2, .clubs-section h2 {
+    color: #1e3d59;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+.events-section ul, .clubs-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.events-section li, .clubs-section li {
+    margin-bottom: 10px;
+    font-size: 1.02rem;
+}
