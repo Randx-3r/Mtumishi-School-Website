@@ -45,4 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
              const ul = document.createElement("ul");
             ul.style.listStyleType = "none";
             ul.style.padding = "0";
-            
+
+             newStudents.forEach(student => {
+                const li = document.createElement("li");
+                li.style.padding = "8px 0";
+                li.style.borderBottom = "1px solid rgba(255, 255, 255, 0.2)";
+                li.innerHTML = `<strong>${student.name}</strong> — ${student.class} (${student.stream})`;
+                ul.appendChild(li);
+            });
