@@ -27,4 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
         if (existingList) {
             existingList.remove();
         }
-        
+
+          // Render the list onto the webpage
+        if (studentSection) {
+            const container = document.createElement("div");
+            container.id = "dynamic-student-list";
+            container.style.marginTop = "25px";
+            container.style.padding = "20px";
+            container.style.borderRadius = "8px";
+            container.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
+            
