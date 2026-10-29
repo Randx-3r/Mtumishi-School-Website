@@ -61,3 +61,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
      // Initial render when the page loads
     renderStudents();
+
+      //  Listen for form submission
+    if (studentForm) {
+        studentForm.addEventListener("submit", (event) => {
+            event.preventDefault(); // Prevents page reload on submit
+
+            const nameValue = nameInput.value.trim();
+            const classValue = classInput.value.trim();
+            const streamValue = streamInput.value;
