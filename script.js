@@ -70,3 +70,12 @@ document.addEventListener("DOMContentLoaded", () => {
             const nameValue = nameInput.value.trim();
             const classValue = classInput.value.trim();
             const streamValue = streamInput.value;
+
+            if (nameValue !== "" && classValue !== "" && streamValue !== "") {
+                // Add the new student record to our array
+                newStudents.push({
+                    name: nameValue,
+                    class: classValue,
+                    stream: streamValue
+                });
+                
