@@ -53,3 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 li.innerHTML = `<strong>${student.name}</strong> — ${student.class} (${student.stream})`;
                 ul.appendChild(li);
             });
+
+              container.appendChild(ul);
+            studentSection.appendChild(container);
+        }
+    }
+
