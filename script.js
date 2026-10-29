@@ -41,3 +41,4 @@ document.addEventListener("DOMContentLoaded", () => {
             titleHeading.textContent = "New students in Mtumishi school";
             titleHeading.style.marginBottom = "15px";
             container.appendChild(titleHeading);
+            
