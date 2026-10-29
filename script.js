@@ -36,4 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
             container.style.padding = "20px";
             container.style.borderRadius = "8px";
             container.style.backgroundColor = "rgba(255, 255, 255, 0.1)";
-            
+
+             const titleHeading = document.createElement("h3");
+            titleHeading.textContent = "New students in Mtumishi school";
+            titleHeading.style.marginBottom = "15px";
+            container.appendChild(titleHeading);
