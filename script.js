@@ -6,4 +6,18 @@ document.addEventListener("DOMContentLoaded", () => {
         { name: "Grace Wanjiru", class: "Form 3", stream: "West" },
         { name: "Liam Mwangi", class: "Form 4", stream: "South" }
     ];
-    
+     // I have the main container and form elements using the exact HTML IDs
+    const studentSection = document.getElementById("students") || document.querySelector(".student-register-section");
+    const studentForm = document.getElementById("studentForm");
+    const nameInput = document.getElementById("studentName");
+    const classInput = document.getElementById("studentClass");
+    const streamInput = document.getElementById("classStream");
+
+    // Function to render the student list on the webpage and log output to the terminal/console
+    function renderStudents() {
+        // Output to the browser Terminal)
+        console.clear();
+        console.log("=== NEW STUDENTS IN MTUMISHI SCHOOL ===");
+        newStudents.forEach((student, index) => {
+            console.log(`${index + 1}. Name: ${student.name} | Class: ${student.class} | Stream: ${student.stream}`);
+        });
