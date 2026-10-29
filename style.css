@@ -46,8 +46,8 @@ nav ul li a:hover {
 
 /* Main Layout Container */
 main {
-    max-width: 1200px;
-    margin: 30px auto;
+    max-width: 1800px;
+    margin: 50px auto;
     padding: 0 20px;
 }
 
@@ -73,7 +73,7 @@ section {
     background: #99bbbe;
     padding: 30px;
     margin-bottom: 25px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
