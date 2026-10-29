@@ -121,3 +121,12 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+.contact-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://imgs.search.brave.com/EtCjF4Y5SKkQtjvzv4hufsQI2p_QTavv0Cca9RtO_i4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDgv/MDM0LzU5OS9zbWFs/bC9zdHlsaXNoLXdv/cmtzcGFjZS13aXRo/LWxhcHRvcC1zdGF0/aW9uZXJ5LXBob25l/LWFuZC1kb2N1bWVu/dHMtaW4tdGhlLW9m/ZmljZS13b3JrLWRl/c2stY29uY2VwdC1m/cmVlLXBob3RvLmpw/Zw');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* Makes text white so it stands out clearly over the dark gradient overlay */
+    padding: 40px;
+    border-radius: 8px;
+}
