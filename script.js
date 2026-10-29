@@ -78,4 +78,16 @@ document.addEventListener("DOMContentLoaded", () => {
                     class: classValue,
                     stream: streamValue
                 });
-                
+
+                 // Save updated array to browser localStorage so it persists across pages
+                localStorage.setItem("mtumishiStudents", JSON.stringify(newStudents));
+
+                // Re-render the updated list on the page and in the terminal
+                renderStudents();
+
+                // Reset all form input fields
+                studentForm.reset();
+            }
+        });
+    }
+});
