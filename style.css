@@ -139,12 +139,3 @@ footer {
     padding: 40px;
     border-radius: 8px;
 }
-.intro-section {
-    background-image: linear-gradient(rgba(168, 152, 152, 0.6), rgba(0, 0, 0, 0.6)), url('https://imgs.search.brave.com/IS0lq0LWIewnCxI6GrLR2NWJ_B4YJOaxp-D3izcA95Y/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA2/ODc2MzQ4MC9waG90/by90ZXh0LXNpZ24t/c2hvd2luZy1yZWdp/c3Rlci1ub3ctY29u/Y2VwdHVhbC1waG90/by1uYW1lLWluLWFu/LW9mZmljaWFsLWxp/c3QtZW5saXN0LXRv/LWJlLWEuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPUJ1OHB1/SF9IRThoeFpZbk0z/aDY1clQ4cGFRenVJ/NGpXeEpVc0xiOW1r/TDA9');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #f3f3f3; /* The text colour ni white */
-    padding: 40px;
-    border-radius: 8px;
-}
