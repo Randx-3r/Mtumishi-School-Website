@@ -21,3 +21,10 @@ document.addEventListener("DOMContentLoaded", () => {
         newStudents.forEach((student, index) => {
             console.log(`${index + 1}. Name: ${student.name} | Class: ${student.class} | Stream: ${student.stream}`);
         });
+
+        // Remove old container if it exists to avoid duplicate lists...so it looks smarttt
+        const existingList = document.getElementById("dynamic-student-list");
+        if (existingList) {
+            existingList.remove();
+        }
+        
